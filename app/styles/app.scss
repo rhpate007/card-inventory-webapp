@@ -1,2 +1,23 @@
+.clicky {
+    cursor: pointer;
+}
+
+.link-to-inherit { // use this when you don't want a link-to to look like a link
+    color: inherit;
+    text-decoration: inherit !important;
+}
+
+.link-to-inherit:hover {
+    color: inherit;
+}
+
+.link-to-inherit:visited {
+    color: inherit;
+}
+
+.create-account-button-margin {
+    margin-left: 5px;
+}
 
 @import "ember-cli-bootstrap-4/bootstrap";
+@import "ember-power-select";

@@ -7,6 +7,14 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('home', { path: '/' });
+  this.route('magic-the-gathering');
+  this.route('pokemon');
+  this.route('yugioh');
+  this.route('login');
+  this.route('user', function() {
+    this.route('new');
+  });
 });
 
 export default Router;

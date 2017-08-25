@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  {{#link-to 'home' class="link-to-inherit navbar-brand"}}Card Inventory Webapp{{/link-to}}
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      {{#link-to 'magic-the-gathering' class="link-to-inherit nav-link"}}Magic the Gathering{{/link-to}}
+    </li>
+    <li class="nav-item">
+      {{#link-to 'pokemon' class="link-to-inherit nav-link"}}Pokémon{{/link-to}}
+    </li>
+    <li class="nav-item">
+      {{#link-to 'yugioh' class="link-to-inherit nav-link"}}Yu-Gi-Oh!{{/link-to}}
+    </li>
+  </ul>
+  {{#link-to 'login' class="btn btn-sm btn-outline-primary"}}Login{{/link-to}}
+  {{#link-to 'user.new' class="btn btn-sm btn-outline-success create-account-button-margin"}}Create Account{{/link-to}}
+</nav>
